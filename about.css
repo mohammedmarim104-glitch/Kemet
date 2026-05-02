@@ -5,7 +5,8 @@
    background: #3e2c23; 
    color: gold; 
    position: sticky; 
-   top: 0; z-index: 2; 
+   top: 0; 
+   z-index: 2; 
   } 
 
 .logo { display: flex;
@@ -28,7 +29,7 @@
   text-decoration: none;
    margin-left: 25px; 
    margin-right: 15px; } 
-.nav a:hover { color: white; } 
+.nav a:hover { color:white; } 
 .menu-icon{ display: none; 
   font-size: 24px; 
   cursor: pointer; }
@@ -45,7 +46,7 @@
 } 
 
 body{ 
-    background-color:#deb58c ; 
+    background:rgb(209, 167, 99);  
     } 
 
 article{
@@ -60,9 +61,7 @@ article{
     font-size: 30px; 
     margin-top: 70px;  
     } 
- .img2,.img4{ 
-        float: right; width: 100%; 
-    } 
+ 
  .img1,.img2{ 
     display: flex; 
     gap: 30px; 
@@ -72,7 +71,6 @@ article{
     background-color: rgba(139, 69, 19, 0.3); 
     border-radius: 10px; 
     transition:all 0.35s ease ; 
-    width: 100%;
   } 
 .img1 img { 
     border-radius: 10px;
@@ -121,14 +119,15 @@ article{
  .family2 { margin: 10px 0; font-size: 25px; white-space: nowrap; } 
  .listofnev li { white-space: nowrap; } 
  .img3{ display: flex; 
-  gap: 30px; align-items: 
-  flex-start;
-   margin:600px 0px 0px 0px; 
+  gap: 30px; 
+  align-items:flex-start;
+   margin:50px 0px 0px 0px; 
    border:1px solid rgba(139, 69, 19, 0.4) ; 
    background-color: rgba(139, 69, 19, 0.3); 
    border-radius: 10px; 
    transition:all 0.35s ease ; } 
- .img3:hover{ transform: translateY(-12px) scale(1.02); 
+ .img3:hover{ 
+    transform: translateY(-12px) scale(1.02); 
   box-shadow: 0 18px 35px rgba(0, 0, 0, 0.2); } 
  .img3 img { border-radius: 10px; 
   margin: auto 0px auto 30px; 
@@ -147,7 +146,7 @@ article{
  .img4{ display: flex; 
   gap: 30px; 
   align-items: flex-start; 
-  margin:80px 0px 0px 0px; 
+  margin:50px 0px 0px 0px; 
   border:1px solid rgba(139, 69, 19, 0.4) ; 
   background-color: rgba(139, 69, 19, 0.3); 
   border-radius: 10px; 
@@ -167,7 +166,7 @@ article{
     .listofram li { white-space: nowrap; } 
     .img5{ display: flex; gap: 30px; 
       align-items: flex-start; 
-      margin:635px 0px 0px 0px; 
+      margin:50px 0px 0px 0px; 
       border:1px solid rgba(139, 69, 19, 0.4) ; 
       background-color: rgba(139, 69, 19, 0.3); 
       border-radius: 10px; 
@@ -227,7 +226,7 @@ body{
 .main-card{
     width:90%;
     margin:auto;
-    background:#deb58c;
+    background:rgb(209, 167, 99);
     border-radius:20px;
     overflow:hidden;
     box-shadow:0 10px 25px rgba(0,0,0,0.2);
@@ -374,3 +373,51 @@ footer{ background-color: #3e2c23;
          font-weight: 900;
          padding: 20px; 
       } 
+
+
+
+
+.dark-theme{
+    background-color:#1e1b18;
+}
+.dark-theme article{color:#c9a24e }
+
+
+.dark-theme footer, .dark-theme header{
+    background:#c9a24e;
+  
+}
+
+button{
+    background-color:#3e2c23 ; 
+    color:gold ;
+    cursor:pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    font-weight: 500;
+}
+button:hover{
+    color: whitesmoke ;
+}
+.dark-theme button{ background:#1e1b18;
+                    color:#c9a24e  ;}
+.dark-theme button:hover
+{
+    color: whitesmoke ;
+}
+
+.dark-theme footer{color: #1e1b18;}
+.dark-theme footer .div1,.dark-theme footer .div2{color:#1e1b18}
+.dark-theme .div3{color:#1e1b18 ;}
+.dark-theme footer a {color: #1e1b18;}
+.dark-theme .header,.dark-theme .header a{color: #1e1b18;}
+.dark-theme .nav a:hover{
+    color:whitesmoke ;
+}
+
+.dark-theme .main-card{background-color:#1e1b18
+                      }
+.dark-theme .title-row h3,.dark-theme .arrow{color:#1e1b18}
+
+.dark-theme .main-card{background-color: #c9a24e;}
+

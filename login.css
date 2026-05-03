@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: "Cinzel", serif;
+    background: rgb(209, 167, 99) ;
+    color: gold;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start; /* يخليهم على الشمال */
+    align-items: center;
+    padding: 15px 40px;
+    background: #3e2c23;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius:50% ;
+}
+
+.logo-text h1 {
+    margin: 0;
+    font-size: 28px;
+    color: gold;
+    font-family: "Cinzel", serif;
+    letter-spacing: 2px;
+}
+
+.logo-text p {
+    margin: 0;
+    font-size: 12px;
+    color: #d4af37;
+    letter-spacing: 3px;
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    background: #3e2c23;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #3e2c23;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+.signup-container button,
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background: #8b5e3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #6d472f;
+}
+
+#error {
+    color: red;
+    margin-top: 10px;
+}
+.login-container a {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-container a:hover {
+    text-decoration: underline
+}
+/* theme 2*/
+
+.dark-theme{
+    background-color:#1e1b18;
+}
+
+.dark-theme footer, .dark-theme header{
+    background:#c9a24e;
+  
+}
+
+button{
+    background-color:#1e1b18 ; 
+    color:#c9a24e ;
+}
+button:hover{
+    color: whitesmoke ;
+}
+.dark-theme button{ background:#1e1b18;
+                    color:#c9a24e  ;}
+.dark-theme button:hover
+{
+    background: #2a2622;
+    color: white ;
+}
+.dark-theme footer{
+    color: #1e1b18;
+}
+.dark-theme footer .div1,.dark-theme footer .div2{
+    color:#1e1b18
+}
+.dark-theme .div3{
+    color:#1e1b18 ;
+}
+.dark-theme footer a {
+    color: #1e1b18;
+}
+.dark-theme .header,.dark-theme .header a{
+    color: #1e1b18;
+}
+.dark-theme .nav a:hover{
+    color:whitesmoke ;
+}
+body.dark-theme .login-container{
+    background: #c9a24e;
+}
+body.dark-theme .signup-container{
+    background: #c9a24e;
+}
+body.dark-theme .login-container a,
+body.dark-theme .signup-container a {
+    color: #1e1b18;
+}
+body.dark-theme .login-container p,
+body.dark-theme .signup-container p {
+    color: #1e1b18;
+}
+body.dark-theme .logo-text h1 {
+    color: #1e1b18;
+}
+
+body.dark-theme .logo-text p {
+    color: #1e1b18;
+}
+.theme-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+    margin-left: auto;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+

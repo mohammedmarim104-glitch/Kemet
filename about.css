@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
 .header { display: flex; 
   justify-content: space-between; 
   align-items: center; 
@@ -27,8 +33,9 @@
      gap: 20px; } 
 .nav a { color: gold; 
   text-decoration: none;
-   margin-left: 25px; 
-   margin-right: 15px; } 
+   margin-left: 25px;
+   margin-right: 15px;
+} 
 .nav a:hover { color:white; } 
 .menu-icon{ display: none; 
   font-size: 24px; 
@@ -38,7 +45,8 @@
   flex-direction: column; 
   background: #3e2c23; 
   position: absolute; 
-  top: 60px; right: 0; 
+  top: 60px; 
+  right: 0; 
   width: 200px; 
   padding: 10px; } 
  .nav.active { display: flex; } 

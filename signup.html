@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sign Up - Kemet</title>
+<link rel="stylesheet" href="signup.css">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="logo-container">
+    <img class="logo-img" src="egyptflag.jpg">
+    
+    <div class="logo-text">
+      <h1>Kemet</h1>
+      <p>Egypt</p>
+    </div>
+  </div>
+  <button onclick="changeTheme();changeLayout()">◐</button>
+
+</header>
+
+<div class="signup-container">
+
+    <h2>Create Account</h2>
+
+    <form onsubmit="return registerUser()">
+
+        <input type="text" id="username" placeholder="Username" required>
+
+        <input type="email" id="email" placeholder="Email" required>
+
+        <input type="password" id="password" placeholder="Password" required>
+
+        <input type="password" id="confirm" placeholder="Confirm Password" required>
+
+        <button type="submit">Sign Up</button>
+
+        <p id="error"></p>
+
+    </form>
+
+    <p>
+        Already have an account?
+        <a href="login.html">Log In</a>
+    </p>
+
+</div>
+
+<script src="signup.js"></script>
+
+</body>
+</html>

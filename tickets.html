@@ -6,7 +6,6 @@
     <title>Tickets</title>
     <link rel="stylesheet" href="tickets.css">
 </head>
-<script src="java.js"></script>
 <body>
     <header class="header">
   <div class="logo">
@@ -25,7 +24,7 @@
         <a href="map.html">Map</a>
         <a href="contact.html">Contact</a>
 </nav>
-<div class="menu-icon"   id="menuIcon"   onclick="togglemenu()"> ≡ </div>
+<div class="menu-icon"   id="menuIcon" > ≡ </div>
 <button onclick="changeTheme();changeLayout()">◐</button>
 </header>
 <section class="my-section">
@@ -81,7 +80,7 @@
   
    <h2 class="title">Book Tickets</h2>
    <section>
-    <form class="booking">
+    <form class="booking" id="bookingForm"  >
         <label>Full Name</label>
         <input type="text" placeholder="Write Your Name">
         <label>Email</label>
@@ -143,5 +142,6 @@
   </div>
   &copy; 2026 KEMET TOURISM. All rights reserved
 </footer>
+<script src="java.js"></script>
 </body>
 </html>

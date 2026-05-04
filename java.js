@@ -1,0 +1,27 @@
+function changeTheme(){
+    document.body.classList.toggle("dark-theme")
+    if(document.body.classList.contains("dark-theme")){
+        document.cookie="theme=dark";
+    }
+    else{
+        document.cookie="theme=light";
+    }
+} 
+function changeLayout(){
+    document.body.classList.toggle("vertical-layout")
+    if(document.body.classList.contains("vertical-layout")){
+        document.cookie="layout=vertical";
+    }
+    else{
+        document.cookie="layout=horizontal";
+    }
+}
+const menuIcon = document.getElementById("menuIcon");
+const navMenu = document.getElementById("navMenu");
+
+menuIcon.addEventListener("click", function() {
+    navMenu.classList.toggle("active")
+});
+
+function goToPage(page) {  window.location.href = page;
+}

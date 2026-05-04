@@ -1,7 +1,4 @@
 .header {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,9 +79,6 @@
     
 }
  footer{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     background-color: #3e2c23;
     color: gold;
     text-align: center;
@@ -145,13 +139,14 @@ ul{
 
 body{
     background-color:rgb(209, 167, 99);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
 }
 
 .title{
     text-align: center;
     margin-bottom: 15px;
     display: block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .working-hours{
     display: flex;
@@ -159,6 +154,7 @@ body{
     background:#e9c581;
     padding: 20px;
     border-radius: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .working-hours .box{
     text-align: center;
@@ -177,6 +173,7 @@ body{
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .card{
     transition: 0.3s;
@@ -190,12 +187,14 @@ body{
     border-radius: 15px;
     padding: 20px;
      background:#e9c581;
-     gap: 15px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    gap: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 }
 label{
-     color: #2f2a25;
+    color: #2f2a25;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .booking input, .booking select{
@@ -206,7 +205,8 @@ label{
      color:  #2f2a25; ;
 }
 input::placeholder{
-    color: #2f2a25; ;
+    color: #2f2a25; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .button{
@@ -214,9 +214,7 @@ input::placeholder{
     transition: 0.3s;
     border: none;
     cursor: pointer;
-   
-   
-    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .button:hover{
     transform: translateY(-5px);

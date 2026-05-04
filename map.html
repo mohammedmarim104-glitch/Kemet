@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kemet </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+  <div class="logo">
+  <img class="egypt" src="egyptflag.jpg">
+<div class="text">
+  <h1>Kemet</h1>
+  <p>Egypt</p>
+</div>
+</div>
+<nav class="nav"
+     id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="map.html">Map</a>
+        <a href="contact.html">Contact</a>
+</nav>
+<div class="menu-icon"   id="menuIcon"   onclick="togglemenu()"> ≡ </div>
+<button onclick="changeTheme();changeLayout()">◐</button>
+</header>
+<main class="main-container">
+    <div class="page-title">
+        <h1> Egypt Landmarks</h1>
+        <p>Explore the ancient wonders</p>
+    </div>
+
+    <div class="content-split">
+        <!-- صورة الخريطة الثابتة -->
+        <div class="static-map">
+            <img src="egypt-map.jpg" alt="Map of Egypt">
+            <div class="map-caption"> Map of Ancient Egypt</div>
+        </div>
+
+        <!-- قائمة البطاقات -->
+        <div class="cards-list" id="cardsList">
+            <div class="card" data-id="giza">
+                <img src="giza.jpg" alt="Giza" class="card-img">
+                <div class="card-info">
+                    <h3>Giza Pyramids</h3>
+                    <p>The Great Pyramid, Pyramid of Khafre, Pyramid of Menkaure, and the Sphinx.</p>
+                </div>
+            </div>
+            <div class="card" data-id="cairo">
+                <img src="cairo.jpg" alt="Cairo" class="card-img">
+                <div class="card-info">
+                    <h3>Historic Cairo</h3>
+                    <p>Egyptian Museum, Saladin Citadel, Al-Azhar Mosque, and Khan El-Khalili.</p>
+                </div>
+            </div>
+            <div class="card" data-id="luxor">
+                <img src="luxor.jpg" alt="Luxor" class="card-img">
+                <div class="card-info">
+                    <h3>Luxor (Thebes)</h3>
+                    <p>Karnak Temple, Luxor Temple, Valley of the Kings, and Colossi of Memnon.</p>
+                </div>
+            </div>
+            <div class="card" data-id="abusimbel">
+                <img src="abusimbel.jpg" alt="Abu Simbel" class="card-img">
+                <div class="card-info">
+                    <h3>Abu Simbel</h3>
+                    <p>Temples of Ramses II and Nefertari, relocated to save from flooding.</p>
+                </div>
+            </div>
+            <div class="card" data-id="saqqara">
+                <img src="saqqara.jpg" alt="Saqqara" class="card-img">
+                <div class="card-info">
+                    <h3>Saqqara</h3>
+                    <p>Step Pyramid of Djoser, the earliest colossal stone building.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </main>
+  <footer>
+  <div class="container">
+    <div class="div1">
+      <p> Kemet Tourism <br>Explore the ancient land of pharaons</p>
+    </div>
+    <div class="div2">
+      Inner pages
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="map.html">Map</a></li>
+        <li> <a href="tickets.html">Tickets</a></li>
+        <li><a href="about.html">About kemet</a></li>
+        <li> <a href="contact.html">Contact</a></li>
+      </ul>
+
+     </div>
+
+      <div class="div3">
+        <p> Email:info@kemet.com <br>
+            phone:+2 xxx xxx xxxx <br>
+            location:Egypt</p>
+        </p>
+      </div>
+  </div>
+  &copy; 2026 KEMET TOURISM. All rights reserved
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

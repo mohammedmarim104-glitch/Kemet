@@ -183,10 +183,7 @@ body {
     opacity: 1 ;
 }
 
-.theme2 footer a, .theme2 .footer a {
-    color: #1e1b18 ;
-    text-decoration: none ;
-}
+
 .theme2 .container, 
 .theme2 .div2 a,
 .theme2 .mother_list,
@@ -213,9 +210,7 @@ body {
     color: #c9a24e ;
     border: 1px solid #c9a24e ;
 }
-.dark-theme{
-    background-color:#1e1b18;
-}
+
 .dark-theme article{color:#c9a24e }
 
 

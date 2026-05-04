@@ -1,18 +1,17 @@
-* {
+.header {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
     background: #3e2c23; 
-    color:#c9a24e;
+    color:gold;
     position: sticky;
     top: 0;
     z-index: 2;
+    
 }
 
 .logo {
@@ -83,6 +82,9 @@
     
 }
  footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: #3e2c23;
     color: gold;
     text-align: center;

@@ -92,7 +92,7 @@
     
 }
 
-/* end header */
+
 .section1{
     background-image: url(imgsection1.jpg);
     background-position: center;
@@ -212,21 +212,21 @@
 
 @keyframes textColor {
   0%, 100% {
-    color: rgb(12, 12, 12); /* لون مع الصورة الأولى */
+    color: rgb(12, 12, 12); 
   }
 
   50% {
-    color: rgb(255, 248, 248); /* لون مع الصورة التانية */
+    color: rgb(255, 248, 248); 
   }
 }
 
 
-/*end section1*/
 
 
 
 
-/*section2*/
+
+
 body{
     background-color: rgb(251, 239, 219);
 }
@@ -315,7 +315,7 @@ body{
 
 }
 
-/*section 3*/
+
 .section3{
     margin-top: 80px;
     margin-bottom: 150px;
@@ -385,8 +385,8 @@ video{
 
 
 
-/*start footer*/
-.footer{
+
+footer{
     background-color: #3e2c23;
     color: gold;
     text-align: center;
@@ -395,6 +395,8 @@ video{
     padding: 50px;
     
 }
+
+
 .container{
     display: flex;
     justify-content: space-around;
@@ -411,16 +413,15 @@ video{
 
 }
 ul{
-    list-style-type: none ;
+    list-style-type: none;
     list-style-position: inside;
     display: flex;
     gap: 50px;
     padding-bottom: 50px;
-    padding-top: 20px;
-
+    padding-top: 30px;
 }
 .div2 a:hover{
-    color: rgb(238, 237, 225);
+    color:rgb(238, 237, 225);
 }
 @media(max-width:768px){
  .container{
@@ -432,20 +433,9 @@ ul{
  }
 
 }
-/*end footer */
 
 
 
-
-
-
-
-
-
-
-
-
-/*change theme */
   body.theme2 {
     background-color: #1e1b18;
 }

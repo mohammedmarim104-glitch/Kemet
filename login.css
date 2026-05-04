@@ -7,7 +7,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: flex-start; /* يخليهم على الشمال */
+    justify-content: flex-start; 
     align-items: center;
     padding: 15px 40px;
     background: #3e2c23;

@@ -81,10 +81,9 @@
     }
     
 }
- footer{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+ 
+
+footer{
     background-color: #3e2c23;
     color: gold;
     text-align: center;
@@ -131,6 +130,8 @@ ul{
  }
 
 }
+
+
 .start{
    height: 30vh;
     background: url('photo.jpg') no-repeat center center/cover;

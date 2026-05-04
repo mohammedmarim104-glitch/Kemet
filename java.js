@@ -25,3 +25,14 @@ menuIcon.addEventListener("click", function() {
 
 function goToPage(page) {  window.location.href = page;
 }
+const form = document.getElementById("bookingForm");
+
+form.addEventListener("submit", function(e){
+    let name = document.querySelector('input[type="text"]').value;
+    let email = document.querySelector('input[type="email"]').value;
+
+    if(name === "" || email === ""){
+        e.preventDefault();
+        alert("Please fill all required fields");
+    }
+});

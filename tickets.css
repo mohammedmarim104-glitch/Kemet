@@ -3,12 +3,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
-    background: #3e2c23; 
+    background: #5c3b1e;
     color:gold;
     position: sticky;
     top: 0;
     z-index: 2;
-    
+     
+   
 }
 
 .logo {
@@ -38,6 +39,7 @@
 .nav{
     display: flex;
     gap: 20px;
+   
 }
 
 .nav a {
@@ -85,10 +87,9 @@
     font-size: 20px;
     font-weight: 900;
     padding: 50px;
-    
 }
 
-
+   
 .container{
     display: flex;
     justify-content: space-around;
@@ -139,7 +140,7 @@ ul{
 
 body{
     background-color:rgb(209, 167, 99);
-    margin:0;
+    margin: 0;
 }
 
 .title{
@@ -187,14 +188,14 @@ body{
     border-radius: 15px;
     padding: 20px;
      background:#e9c581;
-    gap: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     gap: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 }
 label{
-    color: #2f2a25;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     color: #2f2a25;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .booking input, .booking select{
@@ -206,7 +207,7 @@ label{
 }
 input::placeholder{
     color: #2f2a25; 
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .button{
@@ -215,6 +216,8 @@ input::placeholder{
     border: none;
     cursor: pointer;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+    
 }
 .button:hover{
     transform: translateY(-5px);
@@ -287,3 +290,4 @@ button:hover{
 .dark-theme .nav a:hover{
     color:whitesmoke ;
 }
+

@@ -1,43 +1,121 @@
 <!DOCTYPE html>
-<html lang="ar" dir="ltr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kemet - الصفحة الرئيسية</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Contact Us - Kemet</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
-<body class="light-theme">
+<body>
 
     <header class="header">
-        <div class="logo">
-            <img class="egypt" src="egyptflag.jpg" alt="Kemet Logo">
-            <div class="text">
-                <h1>Kemet</h1>
-                <p>Egypt</p>
-            </div>
-        </div>
+        <div class="logo" style="display: flex; align-items: center; gap: 12px;">
+    <img src="https://flagcdn.com/w40/eg.png" width="35" alt="Egypt Flag" style="border-radius: 2px;">
+    
+    <div class="text" style="display: flex; flex-direction: column; line-height: 1.1;">
+        <h1 style="margin: 0; font-size: 22px; color: #FFD700; font-weight: bold; font-family: sans-serif;">Kemet</h1>
+        <p style="margin: 0; font-size: 12px; color: #FFD700; font-family: sans-serif;">Egypt</p>
+    </div>
+</div>
         <nav class="nav" id="navMenu">
             <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="views.html">views</a>
             <a href="gallery.html">Gallery</a>
+            <a href="tickets.html">Tickets</a>
             <a href="map.html">Map</a>
             <a href="contact.html">Contact</a>
         </nav>
+        <button id="themeToggleBtn" onclick="toggleTheme()">◐</button>
         <div class="menu-icon" id="menuIcon" onclick="togglemenu()"> ≡ </div>
     </header>
 
-    <main>
-        <section class="welcome-section">
-            <h2>مرحباً بكم في موقعنا</h2>
-            <p>هذه هي الصفحة الرئيسية لمشروع كيميت.</p>
-        </section>
-    </main>
+    <center>
+        <h1>Contact Us</h1>
+        <p>Kemet team for tourism and monuments</p>
+    </center>
 
-    <footer>
-        <div class="footer-bottom">
-            <p>جميع الحقوق محفوظة &copy; 2026 - تيم كيميت</p>
+    <div id="main">
+        <div class="myBox">
+            <form onsubmit="return check()">
+                <label>Name:</label><br>
+                <input type="text" id="c_name" placeholder="Full Name"><br>
+                <span id="err_name" style="color:red; font-size:12px"></span><br>
+
+                <label>Email:</label><br>
+                <input type="text" id="c_mail" placeholder="Email Address"><br>
+                <span id="err_mail" style="color:red; font-size:12px"></span><br>
+
+                <label>Phone Number:</label><br>
+                <input type="text" placeholder="Ex: +20 123456789"><br><br>
+
+                <label>Country:</label><br>
+                <input type="text" placeholder="Where are you from?"><br><br>
+
+                <label>Subject:</label><br>
+                <select class="custom-select">
+                    <option value="" disabled selected>Select a topic</option>
+                    <option value="inquiry">Inquiry about Monuments</option>
+                    <option value="tour">Booking a Tour</option>
+                    <option value="issue">Report a Problem</option>
+                </select><br><br>
+
+                <label>How did you hear about us?</label><br>
+                <select class="custom-select">
+                    <option value="" disabled selected>Choose an option</option>
+                    <option value="social">Social Media</option>
+                    <option value="friends">Friends or Family</option>
+                    <option value="search">Search Engine (Google)</option>
+                </select><br><br>
+
+                <label>Message:</label><br>
+                <textarea rows="4" style="width:100%" placeholder="Write your message here..."></textarea><br>
+
+                <input type="submit" value="Send Now" class="btn">
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="div1">
+                <p>Kemet Tourism <br>Explore the ancient land of pharaohs</p>
+            </div>
+            <div class="div2">
+                Inner pages
+                <ul class="mother_list">
+                    <div class="part1">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="login.html">Log in</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="views.html">views</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </div>
+                    <div class="part2">
+                        <li><a href="tickets.html">Tickets</a></li>
+                        <li><a href="map.html">Map</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="signup.html">Sign up</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="div3">
+                <p>Email: info@kemet.com <br>
+                Phone: +2 xxx xxx xxxx <br>
+                Location: Egypt</p>
+            </div>
+        </div>
+        
+        <div class="copyrights">
+            &copy; 2026 KEMET TOURISM. All rights reserved
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="contact.js"></script>
+<script>
+    function toggleTheme() {
+        document.body.classList.toggle("theme2");
+    }
+</script>
 </body>
 </html>

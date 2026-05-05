@@ -360,17 +360,16 @@ body{
 }
 
 
-footer{
+ footer{
     background-color: #3e2c23;
     color: gold;
     text-align: center;
     font-size: 20px;
     font-weight: 900;
     padding: 50px;
-    
 }
 
-
+   
 .container{
     display: flex;
     justify-content: space-around;
@@ -386,7 +385,7 @@ footer{
     color: gold;
 
 }
-ul{
+ .mother_list{
     list-style-type: none;
     list-style-position: inside;
     display: flex;

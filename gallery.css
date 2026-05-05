@@ -208,11 +208,13 @@ ul{
     display: flex;
     gap: 50px;
     padding-bottom: 50px;
-    padding-top: 30px;
+    padding-top: 20px;
+    justify-content:center;
 }
 .div2 a:hover{
     color:rgb(238, 237, 225);
 }
+
 @media(max-width:768px){
  .container{
      display: flex;

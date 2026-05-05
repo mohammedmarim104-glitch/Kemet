@@ -168,50 +168,54 @@ body {
     background-color: #c9a24e;
 }
 
-.theme2 footer, .theme2 .footer {
+.theme2 .footer {
     background-color: #c9a24e !important;
-    color: #1e1b18 !important;
-    display: grid !important;
-    grid-template-columns: 1fr 1fr 1fr !important; 
-    gap: 20px !important;
-    padding: 50px 5% !important;
+    display: block !important;
+    padding: 50px 0 !important;
     width: 100% !important;
-    box-sizing: border-box !important;
 }
 
-.theme2 footer > div, .theme2 .footer > div,
-.theme2 footer > section, .theme2 .footer > section {
+.theme2 .container {
     display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
-    visibility: visible !important;
-    opacity: 1 !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
 }
 
-.theme2 footer a, .theme2 .footer a {
+.theme2 .div1, .theme2 .div2, .theme2 .div3 {
+    display: block !important;
+    flex: 1 !important;
+    color: #1e1b18 !important;
+}
+
+.theme2 .mother_list {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 50px !important;
+}
+
+.theme2 .footer a, 
+.theme2 .div2 a, 
+.theme2 .copyrights,
+.theme2 .container p,
+.theme2 .container h3,
+.theme2 .logo .text h1,
+.theme2 .logo .text p,
+.theme2 .nav a {
     color: #1e1b18 !important;
     text-decoration: none !important;
 }
-.theme2 .container, 
-.theme2 .div2 a,
-.theme2 .mother_list,
-.theme2 .logo .text h1,
-.theme2 .logo .text p,
-.theme2 .nav a,
+
 .theme2 .copyrights {
-    color: #1e1b18 !important; 
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.theme2 .div2 a:hover {
-    color: aliceblue !important;
-}
-
-
-.theme2 h1, .theme2 p, .theme2 label {
-    color: #c9a24e !important; 
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-top: 30px !important;
+    font-weight: 600 !important;
 }
 
 .theme2 input, .theme2 textarea, .theme2 select {
@@ -221,15 +225,9 @@ body {
 }
 
 @media(max-width:768px){
- .container {
-     flex-direction: column;
- }
- .div1, .div2, .div3 {
-    margin: 10px;
- }
- .mother_list {
-    flex-direction: column;
-    gap: 10px;
-    padding-bottom: 20px;
+ .theme2 .container, .theme2 .mother_list {
+     flex-direction: column !important;
+     align-items: center !important;
+     gap: 10px !important;
  }
 }

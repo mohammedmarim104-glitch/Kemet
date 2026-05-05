@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: rgb(209, 167, 99);
 }
@@ -50,7 +51,7 @@ body {
 .nav {
     display: flex;
     gap: 20px;
-    background-color: #3e2c23;
+
     margin-right: 30px;
 }
 
@@ -177,18 +178,21 @@ body {
     padding: 15px;
     text-align: center;
 }
-footer{
+
+/* ********************/
+
+footer {
     background-color: #3e2c23;
     color: gold;
     text-align: center;
     font-size: 20px;
     font-weight: 900;
     padding: 50px;
-    
+
 }
 
 
-.container{
+.container {
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -198,78 +202,116 @@ footer{
     font-weight: 700;
     color: gold;
 }
+
 .div2 a {
     text-decoration: none;
     color: gold;
 
 }
-ul{
+
+ul {
     list-style-type: none;
+    list-style-position: inside;
     display: flex;
     gap: 50px;
     padding-bottom: 50px;
-    padding-top: 20px;
-    justify-content:center;
+    padding-top: 30px;
 }
-.div2 a:hover{
-    color:rgb(238, 237, 225);
-}
-.div1 ,.div2,.div3{
-    display:block !important;
-    flex:1 !important;
-    color:#1e1b18;
-}
-    
 
-@media(max-width:768px){
- .container{
-     display: flex;
-     flex-direction: column;
-     }
- .div1,.div2,.div3{
-    margin: 10px;
- }
+.div2 a:hover {
+    color: rgb(238, 237, 225);
+}
+
+@media(max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div1,
+    .div2,
+    .div3 {
+        margin: 10px;
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
+/* */
+
 
 .dark-theme .gallery-php {
     background-color: #1e1b18;
 }
 
-.dark-theme{
-    background-color:#1e1b18;
-}
-.dark-theme article{color:#c9a24e }
-
-
-.dark-theme footer, .dark-theme header{
-    background:#c9a24e;
-  
+.dark-theme {
+    background-color: #1e1b18;
 }
 
-button{
-    background-color:#3e2c23 ; 
-    color:gold ;
-    cursor:pointer;
+.dark-theme article {
+    color: #c9a24e
+}
+
+
+.dark-theme footer,
+.dark-theme header {
+    background: #c9a24e;
+
+}
+
+button {
+    background-color: #3e2c23;
+    color: gold;
+    cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 30px;
     font-weight: 500;
-}
-button:hover{
-    color: whitesmoke ;
-}
-.dark-theme button{ background:#1e1b18;
-                    color:#c9a24e  ;}
-.dark-theme button:hover
-{
-    color: whitesmoke ;
+
 }
 
-.dark-theme footer{color: #1e1b18;}
-.dark-theme footer .div1,.dark-theme footer .div2{color:#1e1b18}
-.dark-theme .div3{color:#1e1b18 ;}
-.dark-theme footer a {color: #1e1b18;}
-.dark-theme .header,.dark-theme .header a{color: #1e1b18;}
-.dark-theme .nav a:hover{
-    color:whitesmoke ;
+button:hover {
+    color: whitesmoke;
+}
+
+.dark-theme button {
+    background: #1e1b18;
+    color: #c9a24e;
+}
+
+.dark-theme button:hover {
+    color: whitesmoke;
+}
+
+.dark-theme footer {
+    color: #1e1b18;
+}
+
+.dark-theme footer .div1,
+.dark-theme footer .div2 {
+    color: #1e1b18
+}
+
+.dark-theme .div3 {
+    color: #1e1b18;
+}
+
+.dark-theme footer a {
+    color: #1e1b18;
+}
+
+.dark-theme .header,
+.dark-theme .header a {
+    color: #1e1b18;
+}
+
+.dark-theme .nav a:hover {
+    color: whitesmoke;
 }

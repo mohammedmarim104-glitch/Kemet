@@ -162,6 +162,10 @@ body {
     background-color: #1e1b18 ; 
 }
 
+.theme2 .header{
+    background-color: #c9a24e;
+}
+
 .theme2 footer, .theme2 .footer {
     background-color: #c9a24e ;
     color: #1e1b18 ;

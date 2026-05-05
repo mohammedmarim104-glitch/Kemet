@@ -3,6 +3,7 @@ body {
     padding: 0;
     background-color: rgb(209, 167, 99); 
     color: black; 
+    font-family: Arial, sans-serif;
     transition: all 0.3s ease;
 }
 
@@ -13,10 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     color: gold;
-    height:80 px;
-}
-center{
-      font-family: Arial, sans-serif;
+    height: 80px;
 }
 .logo {
     display: flex;
@@ -25,9 +23,9 @@ center{
 }
 
 .logo img.egypt {
-    width: 35px; 
-    height: auto;
-    border-radius: 2px;
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
 }
 
 .logo .text {
@@ -87,7 +85,6 @@ center{
     margin: 40px auto;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
     color: white;
-    font-family: Arial, sans-serif;
 }
 
 .myBox input, .myBox select, .myBox textarea {
@@ -100,7 +97,6 @@ center{
     color: #3e2c23;
     font-size: 16px;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 .btn {
@@ -114,7 +110,6 @@ center{
     width: 100%;
     font-size: 18px;
     transition: 0.3s;
-    font-family: Arial, sans-serif;
 }
 
 .btn:hover {

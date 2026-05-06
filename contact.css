@@ -9,12 +9,12 @@ body {
 
 .header {
     background-color: #3e2c23; 
-    padding: 20px 50px;
+    padding: 8px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: gold;
-    height: 70px;
+    height: 60px;
     font-size: 20px;
 }
 .logo {

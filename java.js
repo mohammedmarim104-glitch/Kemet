@@ -11,10 +11,10 @@ function changeTheme(){
 function changeLayout(){
    document.body.classList.toggle("vertical-layout");
     if(document.body.classList.contains("vertical-layout")){
-        localStorage.setItem("layout","vertical");
+        localStorage.setItem("layout","horizontal");
     }
     else{
-        localStorage.setItem("layout","horizontal");
+        localStorage.setItem("layout","vertical");
     }
  }
 window.onload =function(){

@@ -5,8 +5,6 @@ menuIcon.addEventListener("click", function() {
     navMenu.classList.toggle("active")
 });
 
-function goToPage(page) {  window.location.href = page;
-}
 
 function toggleCards(element){
    let card = element.closest(".main-card");

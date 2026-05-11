@@ -5,22 +5,9 @@ menuIcon.addEventListener("click", function() {
     navMenu.classList.toggle("active")
 });
 
-function goToPage(page) {  window.location.href = page;
-}
-
 function toggleCards(element){
    let card = element.closest(".main-card");
    card.classList.toggle("active");
-}
-function getCookie(name){
-    let cookies=document.cookie.split(';')
-    for(let i=0; i<cookies.length; i++){
-        let c=cookies[i].trim();
-        if(c.startsWith(name+"=")){
-            return c.substring(name.length+1);
-        }
-    }
-    return "";
 }
 function changeTheme(){
     document.body.classList.toggle("dark-theme");

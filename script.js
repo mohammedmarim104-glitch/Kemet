@@ -12,13 +12,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // قائمة الهامبرغر للشاشات الصغيرة
+    
     window.togglemenu = function() {
         const navMenu = document.getElementById('navMenu');
         if (navMenu) navMenu.classList.toggle('active');
     };
 
-    // إغلاق القائمة عند النقر خارجها
     document.addEventListener('click', function(e) {
         const navMenu = document.getElementById('navMenu');
         const menuIcon = document.getElementById('menuIcon');

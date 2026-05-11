@@ -48,15 +48,7 @@ function changeTheme(){
         localStorage.setItem("theme","light");
     }
 } 
-function changeLayout(){
-   document.body.classList.toggle("vertical-layout");
-    if(document.body.classList.contains("vertical-layout")){
-        localStorage.setItem("layout","vertical");
-    }
-    else{
-        localStorage.setItem("layout","horizontal");
-    }
- }
+
 window.onload =function(){
     let theme = localStorage.getItem("theme");
     let layout= localStorage.getItem("layout");

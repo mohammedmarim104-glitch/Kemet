@@ -6,7 +6,7 @@ function loginUser() {
     let storedUser = localStorage.getItem("username");
     let storedPass = localStorage.getItem("password");
 
-    // validation بسيط
+    
     if (username === "" || password === "") {
         document.getElementById("error").innerText = "Please fill all fields!";
         return false;
@@ -32,15 +32,7 @@ function changeTheme(){
         localStorage.setItem("theme","light");
     }
 } 
-function changeLayout(){
-   document.body.classList.toggle("vertical-layout");
-    if(document.body.classList.contains("vertical-layout")){
-        localStorage.setItem("layout","vertical");
-    }
-    else{
-        localStorage.setItem("layout","horizontal");
-    }
- }
+
 window.onload =function(){
     let theme = localStorage.getItem("theme");
     let layout= localStorage.getItem("layout");

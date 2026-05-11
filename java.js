@@ -1,47 +1,31 @@
 function changeTheme(){
-    document.body.classList.toggle("dark-theme");
-
+    document.body.classList.toggle("dark-theme")
     if(document.body.classList.contains("dark-theme")){
         localStorage.setItem("theme","dark");
     }
     else{
         localStorage.setItem("theme","light");
     }
-}
+} 
 
 function changeLayout(){
-    document.body.classList.toggle("vertical-layout");
-
+    document.body.classList.toggle("vertical-layout")
     if(document.body.classList.contains("vertical-layout")){
-        localStorage.setItem("layout","vertical");
+        document.cookie="layout=vertical";
     }
     else{
-        localStorage.setItem("layout","horizontal");
+        document.cookie="layout=horizontal";
     }
 }
-
-/* تحميل الحالة أول ما الصفحة تفتح */
-window.onload = function(){
-    let theme = localStorage.getItem("theme");
-    let layout = localStorage.getItem("layout");
-
-    if(theme === "dark"){
-        document.body.classList.add("dark-theme");
-    }
-
-    if(layout === "vertical"){
-        document.body.classList.add("vertical-layout");
-    }
-};
 
 const menuIcon = document.getElementById("menuIcon");
 const navMenu = document.getElementById("navMenu");
 
 menuIcon.addEventListener("click", function() {
-    navMenu.classList.toggle("active");
+    navMenu.classList.toggle("active")
 });
 
-function goToPage(page){
+function goToPage(page) {  
     window.location.href = page;
 }
 

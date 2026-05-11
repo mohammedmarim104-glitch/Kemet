@@ -1,13 +1,12 @@
 function changeTheme(){
     document.body.classList.toggle("dark-theme")
     if(document.body.classList.contains("dark-theme")){
-        localStorage.setItem("theme","dark");
+        document.cookie="theme=dark";
     }
     else{
-        localStorage.setItem("theme","light");
+        document.cookie="theme=light";
     }
 } 
-
 function changeLayout(){
     document.body.classList.toggle("vertical-layout")
     if(document.body.classList.contains("vertical-layout")){
@@ -17,7 +16,6 @@ function changeLayout(){
         document.cookie="layout=horizontal";
     }
 }
-
 const menuIcon = document.getElementById("menuIcon");
 const navMenu = document.getElementById("navMenu");
 
@@ -25,10 +23,8 @@ menuIcon.addEventListener("click", function() {
     navMenu.classList.toggle("active")
 });
 
-function goToPage(page) {  
-    window.location.href = page;
+function goToPage(page) {  window.location.href = page;
 }
-
 const form = document.getElementById("bookingForm");
 
 form.addEventListener("submit", function(e){
@@ -40,3 +36,4 @@ form.addEventListener("submit", function(e){
         alert("Please fill all required fields");
     }
 });
+

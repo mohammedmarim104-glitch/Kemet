@@ -5,10 +5,18 @@ menuIcon.addEventListener("click", function() {
     navMenu.classList.toggle("active")
 });
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 78eda16014e7ec21bd22acc0ee8779e611545a82
 function toggleCards(element){
    let card = element.closest(".main-card");
    card.classList.toggle("active");
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 78eda16014e7ec21bd22acc0ee8779e611545a82
 function changeTheme(){
     document.body.classList.toggle("dark-theme");
     

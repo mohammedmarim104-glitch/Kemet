@@ -17,7 +17,7 @@ body {
     color: gold;
     position: sticky;
     top: 0;
-
+    z-index:100;
 }
 
 .logo {
@@ -120,7 +120,7 @@ body {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     display: block;
-    transition: all 0.5 0.3s ease;
+    transition: all 0.5s 0.3s ease;
     -webkit-transition: all 0.5 0.3s ease;
     -moz-transition: all 0.5 0.3s ease;
     -ms-transition: all 0.5 0.3s ease;
@@ -256,9 +256,7 @@ ul {
     background-color: #1e1b18;
 }
 
-.dark-theme article {
-    color: #c9a24e
-}
+
 
 
 .dark-theme footer,
